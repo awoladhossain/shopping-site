@@ -20,7 +20,31 @@
 1.import { getAuth } from "firebase/auth"; it from web authentication
 2.import app from firebase.config.js file 
 3.then create a function in that call the useemailandpassword or anyother authentication system.
-4.
+*/
+
+
+
+/*
+
+HOSTAING    
+1.one time per pc 
+2.npm install -g firebase-tools 
+3.  firebase login
+//*--------for each project one time-------
+1... firebase init
+2.. proced kora lagbe 
+3.hosting:  firebase (up and down arrow ) use space bar to select 
+4. exiting project jabo then select the peoject carefully 
+//* 5. for public directory: if use vite:( ans: dist)
+6.single page application korta chaile: yes
+7.continus deployment korta chao ki nah: no
+*/
+/*
+---------for everytime deploy-----------------
+1.npm run build
+2. firebase deploy
+
+
 
 */
 
